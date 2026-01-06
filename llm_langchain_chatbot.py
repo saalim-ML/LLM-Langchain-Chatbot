@@ -16,7 +16,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your API key"
 llm = ChatOpenAI(
     temperature=0,
     model_name="gpt-4o-mini"
